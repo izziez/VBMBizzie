@@ -36,6 +36,13 @@ body {
     font-family: 'Marck Script', cursive;
 }
 
+.nav>li:visited {
+    background-color: black;
+    border-color: black;
+    color: #E0D6CC;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
 
 .navbar-default .navbar-nav>li>a {
     color: #E0D6CC;
@@ -47,20 +54,12 @@ body {
     font-family: 'Marck Script', cursive;
 }
 
-/*.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default  {
-	background-color: black;
+.navbar-default .navbar-nav>li>a:visited {
+    background-color: black;
     border-color: black;
     color: #E0D6CC;
     font-family: 'Yanone Kaffeesatz', sans-serif;
 }
-
-.navbar-nav>.active>a:hover {
-	background-color: black;
-    border-color: black;
-    color: #E0D6CC;
-    font-family: 'Marck Script', cursive;
-}*/
-
 
 
 .jumbotron {
